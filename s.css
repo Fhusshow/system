@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+/* Sr Eletronics Systems */
+body
+{
+    font-family: 'Roboto',sans-serif;
+}
+
+nav {
+    background: #03d1ff;
+    height: 100px;
+    width: 100%;
+}
+
+label.logo {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-family: 'Roboto',sans-serif;
+    /* justify-content: left; */
+}
+
+nav ul {
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+nav ul li a { 
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.para
+{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0544bb;
+}
+
+/* label.logo 
+{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+} */
+
+
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav {
+        position: static;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: block;
+    }
+}
+
+

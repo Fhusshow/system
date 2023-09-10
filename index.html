@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automation Service</title>
+    <link rel="stylesheet" type="text/css"  href="./style.css">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<style>
+.button input{
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    background-color: #27ae60;
+    border-radius: 25px;
+}
+
+.button input:hover{
+    background-color: rgb(244, 159, 75);
+}
+</style>
+<body>
+    <nav>
+            <label  class="logo">S.R.Eletronics system</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Our Product</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="service.html">Services</a></li>
+            </ul>
+
+    </nav>
+     <div class="container">     
+        <div class="swiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide"><img src="./image of jpg/OIP (1).jpeg"></div>
+            <div class="swiper-slide"><img src="./image of jpg/p27.jpg" height="700"></div>
+            <div class="swiper-slide"><img src="./image of jpg/p28.jpg" height="700"></div>
+            <div class="swiper-slide"><img src="./image of jpg/p29.jpg" height="700"></div>
+            <div class="swiper-slide"><img src="./image of jpg/p26.jpg" height="700"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+     </div>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+     <script>
+        const swiper = new Swiper('.swiper', {
+             
+                autoplay: {
+                    delay: 4500,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+
+                
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                },
+
+                 // Navigation arrows
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+});
+     </script>
+        <p>Welcome to SR Electronics! We are a leading provider of ultrasonic box drives and services in India. We offer a wide range of ultrasonic box drives to meet your needs, and we also provide installation, maintenance, and repair services.</p>
+		<div class="container">
+			<div class="product-container">
+				<div class="product" data-name="p-1">
+					<img src="./image/WhatsApp Image 2023-08-31 at 13.31.35_prev_ui.png" alt="">
+					<h3>Ultra Sonic Box</h3>
+                    <a href="tel:+919368451766" class="button">
+                        <input type="button" value="Call Now">
+                    </a>
+				</div>
+				<div class="product" data-name="p-2">
+					<img src="./image of jpg/WhatsApp Image 2023-08-31 at 13.32.11.jpg" alt="">
+					<h3>Transistor</h3>
+                    <a href="tel:+919368451766" class="button">
+                        <input type="button" value="Call Now">
+                    </a>
+				</div>
+		</div>
+        <div class="box" style="margin-top: 20px; height: 300px;">
+            <nav>
+                <p style="color: #fff;">About</p>
+                <p style="color: #fff;">Hello everyone I am Amit Kumar and the owner of this website.I am certifited to repair the Eletrical work like Ultrasonic. I also program the delta PLC and HMI.</p>
+                <p style="color: #fff;">Contact</p><a href="tel:+919368451766" style="color: #fff;">+919368451766</a>
+                <p style="color: #fff;">Address</p>
+                <p style="color: #fff;">xyz,colony shahranpur-Delhi road kheri karmu shamli uttar pardesh</p>
+                <a href="https://www.google.com/maps/place/29%C2%B026'04.2%22N+77%C2%B017'45.0%22E/@29.4345997,77.2954134,131m/data=!3m1!1e3!4m4!3m3!8m2!3d29.4344858!4d77.2958233?entry=ttu"
+                    style="color: #fff;"
+                >Location</a>
+            </nav>
+                <img src="./image of jpg/Screenshot (124).png" width="1008" style="margin-top: 32px;">
+            
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
